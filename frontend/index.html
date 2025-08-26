@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <title>Reminder Sertifikat Kompetensi</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h2>Input Sertifikat Kompetensi</h2>
+  <form id="formSertifikat">
+    <input type="text" id="nama" placeholder="Nama" required>
+    <input type="text" id="sertifikat" placeholder="Sertifikat Kompetensi" required>
+    <input type="date" id="mulai" required>
+    <input type="number" id="lama" placeholder="Masa Berlaku (tahun)" required>
+    <button type="submit">Simpan</button>
+  </form>
+
+  <h2>Daftar Sertifikat Kompetensi</h2>
+  <table id="tabelSertifikat">
+    <thead>
+      <tr>
+        <th>No</th>
+        <th>Nama</th>
+        <th>Sertifikat</th>
+        <th>Mulai</th>
+        <th>Selesai</th>
+        <th>Keterangan</th>
+        <th>Pengingat</th>
+      </tr>
+    </thead>
+    <tbody></tbody>
+  </table>
+
+  <script src="script.js"></script>
+</body>
+</html>
